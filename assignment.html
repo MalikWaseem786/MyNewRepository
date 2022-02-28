@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malik Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Be+Vietnam+Pro:wght@100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS REset */
+    body{
+        font-family: 'Balsamiq Sans', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background:url(./imag/floweers.jpg)
+
+    }
+    .left{
+        display:inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        font-size: 30px;
+    }
+    .left img{
+        display: block;
+        margin: auto;
+        width: 117px;
+        filter: invert(100%);
+    }
+    .left div{
+        text-align: center;
+        text-decoration: lightskyblue;
+    }
+    .mid{
+        display: block;
+        width: 39%;
+        margin: 20px auto;
+       
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display:inline-block;
+        
+    }
+    .navbar{
+        display: inline-block;
+        
+
+    }
+    .navbar li{
+        font-size: 39px;
+        display: inline-block;
+    }
+    .navbar a{
+        color: white;
+       text-decoration: none;
+       padding: 24px 14px;
+       font-size: 44px;
+    }
+    a.navbar li a:hover, li a.active{
+        text-decoration: underline;
+        color: gray;
+    }
+    .btn{
+        font-family: 'Balsamiq Sans', cursive;
+        margin: 0px 9px;
+        background-color: rgb(177 177 177 / 50%);
+        color:white;
+        padding: 9px 8px;
+        border: 2px solid gray;
+        border-radius: 13px;
+        font-size: 20px;
+        cursor: pointer;
+        width: 170px;
+        transition-property: background-color;
+        transition-duration: .6s;
+        transition-timing-function: ease-in-out;
+
+
+    }
+    .btn:hover{
+        background-color: rgb(70, 66, 66);
+        font-size: 24px;
+    }
+    .container{
+        border: 4px solid white;
+        margin: 200px 80px;
+        padding: 75px 75px;
+        width: 28%;
+        border-radius: 28px;
+        box-shadow: 5px 5px 15px white;
+        }
+    .form-group input{
+        font-family: 'Balsamiq Sans', cursive;
+        text-align: center;
+    display: block;
+    width: 534px;
+    padding: 16px;
+    border: 0px solid black;
+    margin: 5px auto;
+    font-size: 22px;
+    border-radius: 26px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display:block;
+        border-color: black;
+        width: 32%;
+        margin: auto;
+        font-size: 35px;
+        background-color: rgb(247, 244, 244);
+    }
+    .btm{
+        border-radius: 20px;
+        transition-property: background-color;
+        transition-duration: 0.7s;
+        transition-timing-function: ease-in-out;
+        cursor: pointer;
+    }
+    .btm:hover{
+        background-color: rgb(70, 66, 66);
+    }
+
+    .hom{
+        transition-property: all;
+        font-size: 20px;
+        transition-property: background-color;
+        transition-duration: 0.7s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .hom:hover{
+        border: 5px solid gray;
+        background-color:  rgb(70, 66, 66);
+        border-radius: 15px;
+        box-shadow: 3px 3px 7px white;
+    }
+    .ox:hover{
+        color: black;
+        font-size: 40px;
+        background-color: white;
+        transition-property: background-color;
+        transition-duration: 0.7s;
+        transition-timing-function: ease-in-out;
+        box-shadow: 3px 3px 5px; 
+        cursor: pointer;
+
+    }
+</style>
+
+<body> 
+    <header class="header"></header>
+    <!-- left box for logo -->
+        <div class="left">
+        <img src="./imag/logo2.png" alt="">
+        <div class="ox">My Page</div>
+            
+        </div>
+          <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li class="hom"><a href="#" class="actie">Home</a></li>
+                <li class="hom"><a href="#">About Us</a></li>
+                <li class="hom"><a href="#">Service</a></li>
+                <li class="hom"><a href="#">Explore</a></li>
+                <li class="hom"><a href="#">Contact Us</a></li>
+            </ul> 
+        </div>
+          <!-- right box for buttons -->
+        <div class="right">
+        <button class="btn">Call Us</button>
+        <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+
+        <H1>Its my landing Page</H1>
+        <form action="noaction.php"></form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter Your Gender">
+        </div>
+        <button class="btm">Submit</button>
+        </body>
+</html>
